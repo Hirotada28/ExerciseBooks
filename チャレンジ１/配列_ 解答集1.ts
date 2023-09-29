@@ -26,7 +26,7 @@ const answer5: string[] = array1.map((v) => v[0]);
 
 // 問題6
 const answer6: string[][] = array2.filter((_, i) => i === 0);
-const otherAns6: string[][] = array2.map((v, i) => i === 0 ? v : undefined).filter((v) => !!v);
+const otherAns6: string[][] = array2.map((v, i) => i === 0 ? v : undefined).filter((v): v is Exclude<typeof v, undefined> => !!v);
 
 // 問題7
 const answer7: string[] = members2.filter(({age}) => age >= 35).map(({name}) => name);
