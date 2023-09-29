@@ -3,7 +3,9 @@
 ## パターン1
 
 Typescriptのplaygroundを使用する。
+
 URLは[こちら](https://www.typescriptlang.org/play)
+
 ※こちらの方法が手っ取り早いです。
 
 ## パターン2
