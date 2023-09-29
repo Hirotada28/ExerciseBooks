@@ -8,6 +8,10 @@ URLは[こちら](https://www.typescriptlang.org/play)
 
 ※こちらの方法が手っ取り早いです。
 
+1. 問題集のコードをplaygroundにコピペする
+
+2. validate.tsのコードをplaygroundの先頭行にコピペする
+
 ## パターン2
 
 1. typescriptとts-nodeをグローバルインストールする。
