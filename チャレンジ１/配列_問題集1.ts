@@ -17,171 +17,171 @@ namespace array_problems1 {
     '問題1'
   );
   
-  // 問題2
-  // 次の連想配列(images)のheightだけを取得し、新しい配列(heights)を作成して下さい。
-  ​type Images = {
-    height: string;
-    width: string;
-  }[];
+  // // 問題2
+  // // 次の連想配列(images)のheightだけを取得し、新しい配列(heights)を作成して下さい。
+  // ​type Images = {
+  //   height: string;
+  //   width: string;
+  // }[];
   
-  const images: Images = [
-    { height: "20px", width: "40px" },
-    { height: "34px", width: "56px" },
-    { height: "28px", width: "64px" },
-  ];
+  // const images: Images = [
+  //   { height: "20px", width: "40px" },
+  //   { height: "34px", width: "56px" },
+  //   { height: "28px", width: "64px" },
+  // ];
   
-  const answer2: string[] = ;
-  validateIsCorrect(answer2, ["20px", "34px", "28px"], '問題2');
+  // const answer2: string[] = ;
+  // validateIsCorrect(answer2, ["20px", "34px", "28px"], '問題2');
   
-  // 問題3
-  // 次の連想配列(member)の中から名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい
-  ​type Members1 = {
-    name: string;
-    age: number;
-    gender: "male" | "female";
-  }[];
+  // // 問題3
+  // // 次の連想配列(member)の中から名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい
+  // ​type Members1 = {
+  //   name: string;
+  //   age: number;
+  //   gender: "male" | "female";
+  // }[];
     
-  const members1: Members1 = [
-    { name: "松井", age: 39, gender: "male" },
-    { name: "今田", age: 34, gender: "female" },
-    { name: "鈴木", age: 24, gender: "male" },
-    { name: "山田", age: 56, gender: "male" },
-    { name: "田中", age: 89, gender: "female" },
-  ];
+  // const members1: Members1 = [
+  //   { name: "松井", age: 39, gender: "male" },
+  //   { name: "今田", age: 34, gender: "female" },
+  //   { name: "鈴木", age: 24, gender: "male" },
+  //   { name: "山田", age: 56, gender: "male" },
+  //   { name: "田中", age: 89, gender: "female" },
+  // ];
   
-  const answer3 = (): string[] => {};
-  validateIsCorrect(answer3(), ["松井", "今田", "鈴木", "山田", "田中"], '問題3');
+  // const answer3 = (): string[] => {};
+  // validateIsCorrect(answer3(), ["松井", "今田", "鈴木", "山田", "田中"], '問題3');
   
-  // 問題4
-  // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーに絞り込み、変数に格納して下さい。
-  ​type Users1 = {
-      id: number;
-      admin: Boolean;
-  }[];
+  // // 問題4
+  // // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーに絞り込み、変数に格納して下さい。
+  // ​type Users1 = {
+  //     id: number;
+  //     admin: Boolean;
+  // }[];
     
-  const users1: Users1 = [
-    { id: 1, admin: true },
-    { id: 2, admin: true },
-    { id: 3, admin: false },
-    { id: 4, admin: true },
-    { id: 5, admin: false },
-  ];
+  // const users1: Users1 = [
+  //   { id: 1, admin: true },
+  //   { id: 2, admin: true },
+  //   { id: 3, admin: false },
+  //   { id: 4, admin: true },
+  //   { id: 5, admin: false },
+  // ];
   
-  const answer4: Users1 = ;
-  validateIsCorrect(answer4, [{ id: 1, admin: true },{ id: 2, admin: true },{ id: 4, admin: true }], '問題4');
+  // const answer4: Users1 = ;
+  // validateIsCorrect(answer4, [{ id: 1, admin: true },{ id: 2, admin: true },{ id: 4, admin: true }], '問題4');
   
-  // 問題5
-  // 次の多次元配列のインデックス0番目のみを取り出した配列を作成して下さい。
-  ​const array1 = [
-    ["Ruffy", "captain"],
-    ["Zoro", "combatant"],
-  ];
+  // // 問題5
+  // // 次の多次元配列のインデックス0番目のみを取り出した配列を作成して下さい。
+  // ​const array1 = [
+  //   ["Ruffy", "captain"],
+  //   ["Zoro", "combatant"],
+  // ];
   
-  const answer5: string[] = ;
-  validateIsCorrect(answer5, ["Ruffy", "Zoro"], '問題5');
+  // const answer5: string[] = ;
+  // validateIsCorrect(answer5, ["Ruffy", "Zoro"], '問題5');
   
-  // 問題6
-  // 次の多次元配列の0番目の配列のみを取り出し新しい配列に作成して下さい。
-  ​const array2 = [
-    ["Ruffy", "captain"],
-    ["Zoro", "combatant"],
-  ];
+  // // 問題6
+  // // 次の多次元配列の0番目の配列のみを取り出し新しい配列に作成して下さい。
+  // ​const array2 = [
+  //   ["Ruffy", "captain"],
+  //   ["Zoro", "combatant"],
+  // ];
   
-  const answer6: string[][] = ;
-  validateIsCorrect(answer6, [["Ruffy", "captain"]], '問題6');
+  // const answer6: string[][] = ;
+  // validateIsCorrect(answer6, [["Ruffy", "captain"]], '問題6');
   
-  // 問題7
-  // 次の連想配列(member)の中から35歳以上の名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい。
-  ​type Members2 = {
-    name: string;
-    age: number;
-    gender: "male" | "female";
-  }[];
+  // // 問題7
+  // // 次の連想配列(member)の中から35歳以上の名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい。
+  // ​type Members2 = {
+  //   name: string;
+  //   age: number;
+  //   gender: "male" | "female";
+  // }[];
     
-  const members2: Members2 = [
-    { name: "松井", age: 39, gender: "male" },
-    { name: "今田", age: 34, gender: "female" },
-    { name: "鈴木", age: 24, gender: "male" },
-    { name: "山田", age: 56, gender: "male" },
-    { name: "田中", age: 89, gender: "female" },
-  ];
+  // const members2: Members2 = [
+  //   { name: "松井", age: 39, gender: "male" },
+  //   { name: "今田", age: 34, gender: "female" },
+  //   { name: "鈴木", age: 24, gender: "male" },
+  //   { name: "山田", age: 56, gender: "male" },
+  //   { name: "田中", age: 89, gender: "female" },
+  // ];
   
-  const answer7 = (): string[] => {};
-  validateIsCorrect(answer7(), ["松井", "山田", "田中"], '問題7');
+  // const answer7 = (): string[] => {};
+  // validateIsCorrect(answer7(), ["松井", "山田", "田中"], '問題7');
   
-  // 問題8
-  // 以下のような重複値を含む配列arrの中から、重複値を除いた昇順の配列を作成して下さい。
-  const nums = [2, 4, 7, 5, 4];
+  // // 問題8
+  // // 以下のような重複値を含む配列arrの中から、重複値を除いた昇順の配列を作成して下さい。
+  // const nums = [2, 4, 7, 5, 4];
   
-  const answer8: number[] = ;
-  validateIsCorrect(answer8, [2, 4, 5, 7], '問題8');
+  // const answer8: number[] = ;
+  // validateIsCorrect(answer8, [2, 4, 5, 7], '問題8');
   
-  // 問題9
-  // 次の連想配列の中からnameプロパティをもったユーザーに絞り込み、変数に格納して下さい。
-  ​interface User2 {
-    id: number;
-    name?: string;
-  }
+  // // 問題9
+  // // 次の連想配列の中からnameプロパティをもったユーザーに絞り込み、変数に格納して下さい。
+  // ​interface User2 {
+  //   id: number;
+  //   name?: string;
+  // }
     
-  const users2: User2[] = [
-    { id: 1, name: "豊臣" },
-    { id: 2 },
-    { id: 3, name: "織田" },
-  ];
-  const answer9: User2[] = ;
-  validateIsCorrect(answer9, [{ id: 1, name: "豊臣" },{ id: 3, name: "織田" }], '問題9');
+  // const users2: User2[] = [
+  //   { id: 1, name: "豊臣" },
+  //   { id: 2 },
+  //   { id: 3, name: "織田" },
+  // ];
+  // const answer9: User2[] = ;
+  // validateIsCorrect(answer9, [{ id: 1, name: "豊臣" },{ id: 3, name: "織田" }], '問題9');
   
-  // 問題10
-  // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーを探し、最初に見つけた(true)ユーザーを変数に格納して下さい。
-  ​type Users3 = {
-    id: number;
-    admin: Boolean;
-  }[];
+  // // 問題10
+  // // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーを探し、最初に見つけた(true)ユーザーを変数に格納して下さい。
+  // ​type Users3 = {
+  //   id: number;
+  //   admin: Boolean;
+  // }[];
     
-  const users3: Users3 = [
-    { id: 1, admin: false },
-    { id: 2, admin: true },
-    { id: 3, admin: false },
-    { id: 4, admin: true },  
-  ];
+  // const users3: Users3 = [
+  //   { id: 1, admin: false },
+  //   { id: 2, admin: true },
+  //   { id: 3, admin: false },
+  //   { id: 4, admin: true },  
+  // ];
   
-  const answer10 = ;
-  validateIsCorrect(answer10, { id: 2, admin: true }, '問題10');
+  // const answer10 = ;
+  // validateIsCorrect(answer10, { id: 2, admin: true }, '問題10');
   
-  // 問題11
-  // 次の連想配列(member)の中から,女性の田中さんのオブジェクトを抽出する関数を作成しなさい。
-  ​type Members3 = {
-    name: string;
-    age: number;
-    gender: "male" | "female";
-  };
+  // // 問題11
+  // // 次の連想配列(member)の中から,女性の田中さんのオブジェクトを抽出する関数を作成しなさい。
+  // ​type Members3 = {
+  //   name: string;
+  //   age: number;
+  //   gender: "male" | "female";
+  // };
     
-  const members3: Members3[] = [
-    { name: "田中", age: 44, gender: "male" },
-    { name: "松井", age: 39, gender: "male" },
-    { name: "今田", age: 34, gender: "female" },
-    { name: "鈴木", age: 24, gender: "male" },
-    { name: "山田", age: 56, gender: "male" },
-    { name: "田中", age: 89, gender: "female" },
-  ];
+  // const members3: Members3[] = [
+  //   { name: "田中", age: 44, gender: "male" },
+  //   { name: "松井", age: 39, gender: "male" },
+  //   { name: "今田", age: 34, gender: "female" },
+  //   { name: "鈴木", age: 24, gender: "male" },
+  //   { name: "山田", age: 56, gender: "male" },
+  //   { name: "田中", age: 89, gender: "female" },
+  // ];
   
-  const answer11 = (): Members3 => {}
-  validateIsCorrect(answer11(), [{ name: "田中", age: 89, gender: "female" }], '問題11');
+  // const answer11 = (): Members3 => {}
+  // validateIsCorrect(answer11(), [{ name: "田中", age: 89, gender: "female" }], '問題11');
   
   
-  // 問題12
-  // アンケートを実施した結果がusersという連想配列に格納されています。ユーザー全員が回答済みかどうかを確認し、変数に結果(trueかfalse)を示して下さい。
-  ​type Users4 = {
-    id: number;
-    hasSubmitted: boolean;
-  }[];
+  // // 問題12
+  // // アンケートを実施した結果がusersという連想配列に格納されています。ユーザー全員が回答済みかどうかを確認し、変数に結果(trueかfalse)を示して下さい。
+  // ​type Users4 = {
+  //   id: number;
+  //   hasSubmitted: boolean;
+  // }[];
     
-  const users4: Users4 = [
-    { id: 2, hasSubmitted: true },
-    { id: 3, hasSubmitted: false },
-    { id: 4, hasSubmitted: true },
-  ];
+  // const users4: Users4 = [
+  //   { id: 2, hasSubmitted: true },
+  //   { id: 3, hasSubmitted: false },
+  //   { id: 4, hasSubmitted: true },
+  // ];
   
-  const answer12: boolean = ;
-  validateIsCorrect(answer12, false, '問題12');
+  // const answer12: boolean = ;
+  // validateIsCorrect(answer12, false, '問題12');
 }
