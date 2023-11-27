@@ -17,8 +17,8 @@ namespace array_problems1 {
     '問題1'
   );
   
-  // // 問題2
-  // // 次の連想配列(images)のheightだけを取得し、新しい配列(heights)を作成して下さい。
+  // 問題2
+  // 次の連想配列(images)のheightだけを取得し、新しい配列(heights)を作成して下さい。
   // ​type Images = {
   //   height: string;
   //   width: string;
@@ -33,8 +33,8 @@ namespace array_problems1 {
   // const answer2: string[] = ;
   // validateIsCorrect(answer2, ["20px", "34px", "28px"], '問題2');
   
-  // // 問題3
-  // // 次の連想配列(member)の中から名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい
+  // 問題3
+  // 次の連想配列(member)の中から名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい
   // ​type Members1 = {
   //   name: string;
   //   age: number;
@@ -52,8 +52,8 @@ namespace array_problems1 {
   // const answer3 = (): string[] => {};
   // validateIsCorrect(answer3(), ["松井", "今田", "鈴木", "山田", "田中"], '問題3');
   
-  // // 問題4
-  // // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーに絞り込み、変数に格納して下さい。
+  // 問題4
+  // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーに絞り込み、変数に格納して下さい。
   // ​type Users1 = {
   //     id: number;
   //     admin: Boolean;
@@ -70,8 +70,8 @@ namespace array_problems1 {
   // const answer4: Users1 = ;
   // validateIsCorrect(answer4, [{ id: 1, admin: true },{ id: 2, admin: true },{ id: 4, admin: true }], '問題4');
   
-  // // 問題5
-  // // 次の多次元配列のインデックス0番目のみを取り出した配列を作成して下さい。
+  // 問題5
+  // 次の多次元配列のインデックス0番目のみを取り出した配列を作成して下さい。
   // ​const array1 = [
   //   ["Ruffy", "captain"],
   //   ["Zoro", "combatant"],
@@ -80,8 +80,8 @@ namespace array_problems1 {
   // const answer5: string[] = ;
   // validateIsCorrect(answer5, ["Ruffy", "Zoro"], '問題5');
   
-  // // 問題6
-  // // 次の多次元配列の0番目の配列のみを取り出し新しい配列に作成して下さい。
+  // 問題6
+  // 次の多次元配列の0番目の配列のみを取り出し新しい配列に作成して下さい。
   // ​const array2 = [
   //   ["Ruffy", "captain"],
   //   ["Zoro", "combatant"],
@@ -90,8 +90,8 @@ namespace array_problems1 {
   // const answer6: string[][] = ;
   // validateIsCorrect(answer6, [["Ruffy", "captain"]], '問題6');
   
-  // // 問題7
-  // // 次の連想配列(member)の中から35歳以上の名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい。
+  // 問題7
+  // 次の連想配列(member)の中から35歳以上の名前(name)の値だけを抜き取った配列が返るような関数を作成して下さい。
   // ​type Members2 = {
   //   name: string;
   //   age: number;
@@ -109,15 +109,15 @@ namespace array_problems1 {
   // const answer7 = (): string[] => {};
   // validateIsCorrect(answer7(), ["松井", "山田", "田中"], '問題7');
   
-  // // 問題8
-  // // 以下のような重複値を含む配列arrの中から、重複値を除いた昇順の配列を作成して下さい。
+  // 問題8
+  // 以下のような重複値を含む配列arrの中から、重複値を除いた昇順の配列を作成して下さい。
   // const nums = [2, 4, 7, 5, 4];
   
   // const answer8: number[] = ;
   // validateIsCorrect(answer8, [2, 4, 5, 7], '問題8');
   
-  // // 問題9
-  // // 次の連想配列の中からnameプロパティをもったユーザーに絞り込み、変数に格納して下さい。
+  // 問題9
+  // 次の連想配列の中からnameプロパティをもったユーザーに絞り込み、変数に格納して下さい。
   // ​interface User2 {
   //   id: number;
   //   name?: string;
@@ -131,8 +131,8 @@ namespace array_problems1 {
   // const answer9: User2[] = ;
   // validateIsCorrect(answer9, [{ id: 1, name: "豊臣" },{ id: 3, name: "織田" }], '問題9');
   
-  // // 問題10
-  // // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーを探し、最初に見つけた(true)ユーザーを変数に格納して下さい。
+  // 問題10
+  // 以下の連想配列(users)の中から、管理者権限(admin)を持っている(true)ユーザーを探し、最初に見つけた(true)ユーザーを変数に格納して下さい。
   // ​type Users3 = {
   //   id: number;
   //   admin: Boolean;
@@ -148,8 +148,8 @@ namespace array_problems1 {
   // const answer10 = ;
   // validateIsCorrect(answer10, { id: 2, admin: true }, '問題10');
   
-  // // 問題11
-  // // 次の連想配列(member)の中から,女性の田中さんのオブジェクトを抽出する関数を作成しなさい。
+  // 問題11
+  // 次の連想配列(member)の中から,女性の田中さんのオブジェクトを抽出する関数を作成しなさい。
   // ​type Members3 = {
   //   name: string;
   //   age: number;
@@ -169,8 +169,8 @@ namespace array_problems1 {
   // validateIsCorrect(answer11(), [{ name: "田中", age: 89, gender: "female" }], '問題11');
   
   
-  // // 問題12
-  // // アンケートを実施した結果がusersという連想配列に格納されています。ユーザー全員が回答済みかどうかを確認し、変数に結果(trueかfalse)を示して下さい。
+  // 問題12
+  // アンケートを実施した結果がusersという連想配列に格納されています。ユーザー全員が回答済みかどうかを確認し、変数に結果(trueかfalse)を示して下さい。
   // ​type Users4 = {
   //   id: number;
   //   hasSubmitted: boolean;
@@ -184,4 +184,40 @@ namespace array_problems1 {
   
   // const answer12: boolean = ;
   // validateIsCorrect(answer12, false, '問題12');
-}
+
+  // 問題13
+  // 重複な数字を格納している配列があります。重複した配列を除外した新しい配列を作成してください。
+  // const duplicateArr: number[] = [1, 2, 3, 4, 5, 2, 5];
+
+  // const answer13: number[] = ;
+  // validateIsCorrect(answer13, [1, 2, 3, 4, 5], '問題12');
+
+  // 問題14
+  // アンケートを実施足した結果、同じ人が複数回回答をしていました。重複した場合は最初の回答を優先して、新しい配列を作成してください。
+  // type User5 = {
+  //   id: number;
+  //   name: string;
+  //   hobby: string;
+  // }[];
+
+  // const user5: User5 = [
+  //   { id: 1, name: 'bob', hobby: 'soccer' },
+  //   { id: 2, name: 'alex', hobby: 'books' },
+  //   { id: 3, name: 'mary', hobby: 'piano' },
+  //   { id: 2, name: 'alex', hobby: 'movie' },
+  //   { id: 4, name: 'john', hobby: 'running' },
+  //   { id: 4, name: 'john', hobby: 'walking' },
+  // ];
+
+  // const answer14: User5 = ;
+  // validateIsCorrect(
+  //   answer14,
+  //   [
+  //     { id: 1, name: 'bob', hobby: 'soccer' },
+  //     { id: 2, name: 'alex', hobby: 'books' },
+  //     { id: 3, name: 'mary', hobby: 'piano' },
+  //     { id: 4, name: 'john', hobby: 'running' },
+  //   ],
+  //   '問題12',
+  // );
+  }
